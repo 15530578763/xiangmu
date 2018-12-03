@@ -1,0 +1,794 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{list-style: none;}
+a{text-decoration: none;}
+a{color: black;}
+img{border: none;vertical-align: middle;}
+#head-a1{
+	width: 100%;
+}
+#head{
+	width: 1200px;
+	height: 360px;
+	margin: 0 auto;
+	background: url(../images/1.jpg) no-repeat center;
+	background-size: 100% 100%;
+	position: relative;
+}
+#head .head-a{
+	width: 100%;
+	height: 30%;
+	position: absolute;
+}
+#head .head-b{
+	margin-top: 30px;
+	float: left;
+}
+#head>.head-a>ul{
+	float: left;
+	display: block;
+	width: 50%;
+	height: 100%;
+	margin-left: 30px;
+	margin-top: 25px;
+}
+#head>.head-a>ul>a{
+	float: left;
+	display: block;
+	width: 20%;
+	height: 100%;
+}
+#head .head-a ul a .head-c{
+	display: block;
+	width: 100%;
+	height: 20%;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+#head .head-a ul a .head-d{
+	display: block;
+	color: #fff;
+	text-align: center;
+	font-size: 10px;
+	letter-spacing: 1px;
+	margin: 2px;
+}
+#head .head-a .head-f{
+	float: right;
+	width: 300px;
+	height: 100px;
+}
+#head .head-a .head-f img{
+	display: block;
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-top: 20px;
+}
+#head .head-a .head-f p{
+	color: #fff;
+	margin-top: 40px;
+	float: right;
+	width:200px;
+}
+#head>.head-a>.head-f>p>a{
+	color: #ccc;
+}
+#head .head-a .head-h{
+	float: right;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+#head .head-a .head-i{
+	float: right;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+#head-k{
+	width: 650px;
+	height: 272px;
+	background: #0a2948;
+	opacity: 0.8;
+	position: absolute;
+	top: 88px;
+	left: 150px;
+	display: none;
+}
+#head-k>ul{
+	display: block;
+	width: 130px;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+#head-k>ul>li{
+	display: block;
+	width: 100px;
+	height: 20px;
+	margin: 30px 0 30px 20px;
+}
+#head-k>ul>li>a{
+	color: #fff;
+}
+#head-l{
+	width: 100%;
+	position: absolute;
+	left: 850px;
+	top: 80px;
+	display: none;
+}
+#head-m{
+	position: absolute;
+	right: 0;
+	top: 100px;
+	display: none;
+}
+#head-n{
+	width: 263px;
+	height: 50px;
+	border: 2px yellow solid;
+	background: #000;
+	opacity: 0.9;
+	position: absolute;
+	left: 477px;
+	top: 270px;
+	font: bold  20px/50px "微软雅黑";
+	letter-spacing: 2px;
+	text-align: center;
+}
+#head-n a{
+	color: #fff;
+	opacity: 0.7;
+}
+
+
+/*这是身体的---------------------------------*/
+/*身体第一个-----------------*/
+#body-1{
+	width: 1200px;
+	height: 419px;
+	margin: 0 auto;
+}
+#body-a{
+	width: 1200px;
+	height: 385px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 35px;
+	background: #eeeeee;
+}
+#body-b{
+	width: 730px;
+	height: 340px;
+	float: left;
+}
+#body-b>li{
+	width: 730px;
+	height: 340px;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 35px;
+}
+#body-b>li img{
+	width: 100%;
+	height: 100%;
+}
+#body-c{
+	width: 730px;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: #CCCCCC;
+	float: right;
+}
+#body-c>li{
+	float: left;
+	width: 20%;
+	height: 47px;
+	line-height: 50px;
+	text-align: center;
+	
+	opacity: 0.9;
+}
+.body-d{
+	background: red;
+	border-bottom: 3px solid black;
+}
+#body-f{
+	float: right;
+	width: 440px;
+	height: 380px;
+	position: relative;
+}
+#body-f a{
+	color: black;
+}
+#body-f>ul{
+	width: 440px;
+	height: 30px;
+	text-align: center;
+}
+#body-f>ul>li{
+	float: left;
+	width: 88px;
+	height: 28px;
+	line-height: 30px;
+}
+#body-f>ol{
+	width: 440px;
+	height: 290px;
+	position: relative;
+}
+#body-f>ol>li{
+	width: 440px;
+	height: 250px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+#body-h{
+	width: 440px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font: 30px "微软雅黑";
+	color: #000;
+}
+#body-h a{
+	display: block;
+	line-height: 60px;
+}
+#body-g li ul{
+	width: 440px;
+	height: 250px;
+	
+}
+#body-g li ul li{
+	width: 400px;
+	height: 42px;
+	padding-left: 30px;
+	line-height: 42px;
+}
+#body-g li ul li span{
+	float: right;
+}
+#body-i{
+	width: 430px;
+	height: 35px;
+	background: #CCCCCC;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	float: right;
+}
+#body-i a{
+	line-height: 35px;
+}
+/*身体第二个-----------------------*/
+#body-a19{
+	width: 100%;
+	height: 350px;
+	background: #EEEEEE;
+}
+#body-2{
+	width: 1200px;
+	height: 295px;
+	margin: 0 auto;
+	padding: 50px 0 0 ;
+	position: relative;
+	background: #eeeeee;
+}
+#body-j{
+	width: 730px;
+	height: 295px;
+	float: left;
+}
+#body-a18{
+	width: 100%;
+	height: 420px;
+	background: #EEEEEE;
+}
+#body-l{
+	width: 730px;
+	height: 50px;
+	border-left: #0000FF 3px solid;
+}
+#body-l>span{
+	display: block;
+	width: 110px;
+	height: 50px;
+	font: bold 20px/50px "微软雅黑";
+	float: left;
+}
+#body-l>div{
+	float: left;
+	width: 620px;
+	height: 50px;
+}
+#body-l>div ul{
+	width: 605px;
+	height: 20px;
+	margin-top:15px ;
+	border-bottom: #000000 1px solid;
+}
+#body-l>div ul li{
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+#body-l>div ul span{
+	float: right;
+	margin-right: 20px;
+}
+#body-m{
+	width: 730px;
+	height: 245px;
+	position: relative;
+}
+#body-m>ul{
+	width: 730px;
+	height: 245px;
+}
+#body-m>ul>li{
+	width: 170px;
+	height: 245px;
+	float: left;
+	margin-right: 12px;
+}
+#body-m>ul>li span{
+	display: block;
+	width: 150px;
+	height: 25px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+#body-m>ul>li a{
+	display: block;
+	margin-top: 3px;
+	width: 150px;
+	margin-left: 10px;
+	font-size:10px;
+}
+#body-k{
+	width: 430px;
+	height: 295px;
+	float: right;
+	
+}
+#body-n{
+	width: 430px;
+	height: 148px;
+}
+#body-p{
+	width: 320px;
+	height: 148px;
+	float: left;
+}
+#body-p img{
+	width: 320px;
+	height: 148px;
+}
+#body-q{
+	width: 100px;
+	height: 150px;
+	float: right;
+}
+.body-a7{
+	display: block;
+	text-align: center;
+	line-height: 60px;
+}
+.body-a8{
+	display: block;
+	text-align: center;
+	line-height: 60px;
+	background: #FFFFFF;
+}
+#body-r{
+	width: 100px;
+	height: 67px;
+	background: #06c4d0;
+}
+#body-s{
+	width: 100px;
+	height: 67px;
+	background: #06c4d0;
+	margin-top: 14px;
+}
+#body-o{
+	width: 430px;
+	height: 127px;
+	margin-top: 20px;
+}
+#body-t{
+	width: 210px;
+	height: 127px;
+	float: left;
+}
+#body-v{
+	width: 220px;
+	height: 60px;
+	float: left;
+}
+#body-x{
+	width: 100px;
+	height: 60px;
+	float: left;
+}
+#body-y{
+	width: 100px;
+	height: 60px;
+	float: left;
+	margin-left: 10px;
+}
+#body-w{
+	width: 210px;
+	height: 57px;
+	float: left;
+	margin-top: 10px;
+}
+#body-u{
+	width: 210px;
+	height: 127px;
+	float: right;
+	margin-left: 10px;
+}
+#body-z{
+	width: 210px;
+	height: 60px;
+}
+#body-a3{
+	width: 98px;
+	height: 60px;
+	float: left;
+}
+#body-a4{
+	width: 98px;
+	height: 60px;
+	float: right;
+}
+#body-a2{
+	width: 210px;
+	height: 60px;
+	margin-top: 10px;
+}
+#body-a5{
+	width: 98px;
+	height: 57px;
+	float: left;
+}
+#body-a6{
+	width: 98px;
+	height: 57px;
+	float: right;
+}
+#body-3{
+	width: 100%;
+	height: 350px;
+	background: #EEEEEE;
+}
+#body-a7{
+	width: 1200px;
+	height: 230px;
+	margin: 0 auto;
+	position: relative;
+	padding: 50px 25px 70px;
+}
+#body-a8{
+	width: 360px;
+	height: 230px;
+	float: left;
+	margin-right: 20px;
+}
+.body-a11{
+	width: 100%;
+	height: 100%;
+}
+#body-a9{
+	width: 360px;
+	height: 230px;
+	float: left;
+}
+#body-a10{
+	width: 430px;
+	height: 230px;
+	float: right;
+}
+#body-a12{
+	width: 210px;
+	height: 230px;
+	float: left;
+}
+#body-a14{
+	width: 210px;
+	height: 110px;
+}
+#body-a15{
+	width: 210px;
+	height: 110px;
+	margin-top: 10px;
+}
+#body-a13{
+	width: 210px;
+	height: 230px;
+	float: right;
+}
+#body-a16{
+	width: 210px;
+	height: 170px;
+}
+#body-a17{
+	width: 210px;
+	height: 50px;
+	margin-top: 10px;
+}
+#body-4{
+	width: 100%;
+	height: 530px;
+	background: #e2e2e2;
+}
+#body-a21{
+	width: 1200px;
+	height: 420px;
+	margin: 0 auto;
+	padding-top: 65px;
+	padding-bottom: 45px;
+}
+#body-a22{
+	width: 740px;
+	height: 400px;
+	float: left;
+}
+#body-a24{
+	width: 740px;
+	height: 50px;
+}
+#body-a24>span{
+	display: block;
+	width: 107px;
+	height: 50px;
+	font: bold 20px/50px "微软雅黑";
+	float: left;
+	border-left: 3px solid blue;
+}
+#body-a24>div{
+	float: left;
+	width: 630px;
+	height: 50px;
+}
+#body-a24>div ul{
+	width: 605px;
+	height: 20px;
+	margin-top:15px ;
+	border-bottom: #000000 1px solid;
+}
+#body-a24>div ul li{
+	float: left;
+	text-align: center;
+	width: 50px;
+}
+
+#body-a24>div ul span{
+	float: right;
+	margin-right: 20px;
+}
+#body-a25{
+	width: 740px;
+	height: 350px;
+	margin-top: 20px;
+	position: relative;
+}
+#body-a25 ul{
+	position: absolute;
+	display: none;
+}
+#body-a25 li{
+	width: 175px;
+    height: 170px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#body-a25 li img{
+	width: 100%;
+	height: 100px;
+}
+#body-a25 li span{
+	display: block;
+	width: 175px;
+	height: 40px;
+	overflow: hidden;
+	text-align: center;
+	line-height: 20px;
+	font-size: 12px;
+}
+#body-a25 li p{
+	width: 165px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 8px;
+	padding-left: 10px;
+}
+#body-a23{
+	width: 430px;
+	height: 400px;
+	float: right;
+}
+#body-a26{
+	width: 430px;
+	height: 50px;
+}
+#body-a28{
+	width: 430px;
+	height: 50px;
+}
+#body-a28>span{
+	display: block;
+	width: 100px;
+	height: 50px;
+	font: bold 20px/50px "微软雅黑";
+	float: left;
+	border-left: 3px solid blue;
+}
+#body-a28>div{
+	float: left;
+	width: 126px;
+	height: 50px;
+}
+#body-a28>div ul{
+	width: 326px;
+	height: 20px;
+	margin-top:15px ;
+	border-bottom: #000000 1px solid;
+	
+}
+#body-a28>div ul li{
+	width: 45px;
+	float: left;
+	text-align: center;
+}
+#body-a27{
+	width: 430px;
+	height: 260px;
+	margin-top: 20px;
+}
+#body-a27 li{
+	width: 140px;
+	height: 280px;
+	float: left;
+}
+#body-a27 ul li:nth-child(2){
+	margin: 0px 5px;
+} 
+#body-a27 li img{
+	width: 140px;
+	height: 200px;
+}
+#body-a27 li span{
+	display: block;
+	width: 140px;
+	height: 40px;
+	overflow: hidden;
+	text-align: center;
+	line-height: 20px;
+	font-size: 12px;
+	margin-top: 10px;
+}
+#body-a27 li p{
+	width: 165px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 8px;
+	padding-left: 10px;
+}
+
+
+
+#body-a29{
+	width: 430px;
+	height: 70px;
+	border: 2px solid #ddcdbe;
+	margin-top: 15px;
+	text-align: center;
+	line-height: 65px;
+}
+#body-a29 a{
+	color: #9e8f70;
+}
+/*--这是身体第五个-------------------------*/
+#body-5{
+	width: 100%;
+	height: 560px;
+	background: #EEEEEE;
+}
+#body-a30{
+	width: 1200px;
+	height: 440px;
+	margin: 0 auto;
+	padding: 60px 0 60px;
+}
+#body-a31{
+	width: 1200px;
+	height: 37px;
+}
+#body-a31 p{
+	width: 100px;
+	height: 37px;
+	line-height: 37px;
+	text-align: center;
+	font-size: 20px;
+	float: left;
+}
+#body-a31 ul{
+	float: left;
+}
+#body-a31 ul li{
+	float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 37px;
+    font-size: 16px;
+}
+#body-a31 span{
+	float: right;
+	line-height: 37px;
+	padding-right: 20px;
+	font-size: 16px;
+}
+#body-a32{
+	width: 1200px;
+	height: 403px;
+	overflow: auto;
+	margin-left: 6px;
+}
+#body-a32 span{
+	display: block;
+	width: 90px;
+	height: 100px;
+	float: left;
+}
+#body-a32 span img{
+	width: 60px;
+	height: 60px;
+	margin-top: 12px ;
+	margin-left: 12px;
+}
+#body-a32 span p{
+	text-align: center;
+	line-height: 25px;
+}
+
+
+
+
+
+
+
+
+#footer{
+	width: 100%;
+	height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

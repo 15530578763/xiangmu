@@ -1,0 +1,27 @@
+.body-b1{
+	background: red;
+	border-bottom: 2px solid blue;
+	color: blue;
+	font-size: 18px;
+}
+.body-b2{
+	position: relative;
+	top: -8px;
+}
+.body-b3{
+	color: blue;
+	font-size: 20px;
+}
+.body-b4{
+	display: block;
+	background: red;
+}
+
+
+
+
+
+
+
+
+
