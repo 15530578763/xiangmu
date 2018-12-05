@@ -122,6 +122,18 @@ function lunbo1(){
 
 
 
+function fn(){
+	this.init=function(){
+		$("#body-a36 a").hover(function(){
+			$(this).children("span").css("background-color","rgba(0,0,0,0.5)")
+			$(this).css("color","#FFFFFF")
+		$(this).children("span").animate({"bottom":0},1000)
+		},function(){
+			$(this).children("span").animate({"bottom":-48},1000)
+		})
+	}
+}
+
 
 
 

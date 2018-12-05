@@ -1,0 +1,276 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{list-style: none;}
+a{text-decoration: none;}
+a{color: black;}
+img{border: none;vertical-align: middle;}
+
+
+#zhuce-a1{
+	width: 1263px;
+	height: 657px;
+	margin: 0 auto;
+}
+#zhuce-a2{
+	width: 427px;
+	height: 657px;
+	float: left;
+}
+#zhuce-a2 img{
+	width: 100%;
+	height: 100%;
+}
+#zhuce-a3{
+	float: left;
+	width: 835px;
+	height: 657px;
+}
+#zhuce-a4{
+	width: 835px;
+	height: 100px;
+}
+#zhuce-a6{
+	width: 400px;
+	height: 50px;
+	float: right;
+	margin-top: 25px;
+}
+#zhuce-a6 li{
+	width: 90px;
+	height: 30px;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+}
+#zhuce-a5{
+	width: 835px;
+	height: 557px;
+}
+#zhuce-a7{
+	width: 250px;
+    height: 70px;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+    font-size: 25px;
+    background: red;
+    border-radius: 10px;
+}
+#zhuce-a8{
+	width: 250px;
+	height: 70px;
+	float: left;
+	text-align: center;
+	line-height: 70px;
+	font-size: 25px;
+}
+#zhuce-a9{
+	width: 500px;
+	height: 400px;
+	margin-left: 200px;
+	position: absolute;
+}
+#zhuce-a10{
+    width: 62px;
+    height: 36px;
+    float: left;
+    margin-left: 75px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 17px;
+}
+#zhuce-a11{
+    width: 235px;
+    height: 36px;
+    float: left;
+    margin-left: 41px;
+    margin-top: 13px;
+    font-size: 18px;
+    line-height: 36px;
+}
+#zhuce-a12{
+    width: 62px;
+    height: 36px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 72px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+}
+#zhuce-a13{
+	width: 235px;
+    height: 36px;
+    float: left;
+    margin-left: 44px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+#zhuce-a14{
+    display: block;
+    width: 238px;
+    height: 28px;
+    position: absolute;
+    top: 124px;
+    left: 180px;
+    background: #FFFFFF;
+}
+#zhuce-a15{
+    display: block;
+    width: 270px;
+    height: 28px;
+    position: absolute;
+    top: 196px;
+    left: 177px;
+    background: #FFFFFF;
+}
+#zhuce-a16{
+    width: 62px;
+    height: 33px;
+    float: left;
+    margin-top: 36px;
+    margin-left: 75px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+}
+#zhuce-a17{
+    width: 235px;
+    height: 33px;
+    float: left;
+    margin-left: 39px;
+    font-size: 18px;
+    margin-top: 35px;
+}
+#zhuce-a18{
+    width: 201px;
+    height: 33px;
+    margin-top: 20px;
+    margin-left: -5px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+    position: absolute;
+    top: 266px;
+    left: 81px;
+}
+#zhuce-a19{
+	width: 110px;
+    height: 33px;
+    float: left;
+    margin-left: 39px;
+    font-size: 18px;
+    position: absolute;
+    top: 253px;
+    left: 272px;
+    margin-top: 35px;
+}
+#zhuce-a20{
+ 	width: 222px;
+    height: 58px;
+    float: left;
+    margin-left: 39px;
+    font-size: 18px;
+    position: absolute;
+    top: 298px;
+    left: 108px;
+    margin-top: 35px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 30px;
+    background: red;
+    border-radius: 10px;
+}
+#zhuce-a21{
+	display: none;
+    width: 450px;
+    height: 321px;
+    position: absolute;
+    top: 70px;
+    left: 1px;
+}
+#zhuce-a22{
+    width: 62px;
+    height: 36px;
+    float: left;
+    margin-left: 72px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+    margin-top: 22px;
+}
+#zhuce-a23{
+    width: 235px;
+    height: 36px;
+    float: left;
+    margin-left: 27px;
+    margin-top: 18px;
+    font-size: 18px;
+    line-height: 36px;
+}
+#zhuce-a24{
+    width: 62px;
+    height: 36px;
+    float: left;
+    margin-left: 96px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 36px;
+    position: absolute;
+    top: 50px;
+    left: 54px;
+}
+#zhuce-a25{
+    width: 40px;
+    height: 36px;
+    float: left;
+    margin-left: -46px;
+    font-size: 18px;
+    margin-top: 37px;
+    position: absolute;
+    top: 53px;
+    left: 130px;
+}
+#zhuce-a26{
+    display: block;
+    width: 238px;
+    height: 33px;
+    position: absolute;
+    top: 85px;
+    left: 160px;
+}
+#zhuce-a27{
+    display: block;
+    width: 238px;
+    height: 28px;
+    position: absolute;
+    top: 128px;
+    left: 160px;
+}
+#zhuce-a28{
+    width: 222px;
+    height: 58px;
+    float: left;
+    margin-left: 39px;
+    font-size: 18px;
+    position: absolute;
+    top: 227px;
+    left: 107px;
+    margin-top: 35px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 30px;
+    background: red;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+

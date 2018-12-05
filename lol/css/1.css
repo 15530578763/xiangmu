@@ -16,7 +16,14 @@
 	display: block;
 	background: red;
 }
-
+.body-b5{
+	display: block;
+	width: 170px;
+	height: 48px;
+	position: absolute;
+	left: 0;
+	bottom: -48px;
+}
 
 
 
