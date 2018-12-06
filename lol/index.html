@@ -4,10 +4,41 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" href="css/index.css" />
-		<link rel="stylesheet" type="text/css" href="css/1.css"/>
+		<link rel="stylesheet"  href="css/1.css"/>
 	</head>
-	<body>
-<!--这是头部------------------------------------------------------------------------------------------------------------------------->
+	<style>
+		#louti{
+			position: fixed;
+			top: 300px;
+			right: 0;
+			z-index: 2;
+		}
+		#louti li{
+			width: 50px;
+			height: 50px;
+			background: #CCCCCC;
+		}
+		#louti p{
+			width: 50px;
+			height: 50px;
+			background: #CCCCCC;
+		}
+		#louti li.active{
+			background: red;
+		}
+	</style>
+	<body style="overflow-x: hidden;">
+<!--这是楼梯----------------------------------------------------------------------->
+		<div id="louti">
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+			<li>6</li>
+			<p>回顶</p>
+		</div>
+<!--这是头部-------------------------------------------------------------------------------------------------------->
 		<div id="head-a1">
 			<div id="head">
 				<div class="head-a">
@@ -68,7 +99,7 @@
 <!--这是身体-------------------------------------------------------------------------------------------------------------------------------->
 		<div>
 			<!--身体的第一个------------------------------------>
-			<div id="body-a18">
+			<div id="body-a18" class="louti">
 				<div id="body-1">
 				<div id="body-a">
 					<ol id="body-b">
@@ -156,7 +187,7 @@
 			</div>
 			</div>
 			<!--身体的第二个-------------------------------------->
-			<div id="body-a19">
+			<div id="body-a19" class="louti">
 				<div id="body-2">
 				<!--左边--------------->
 				<div id="body-j">
@@ -212,7 +243,7 @@
 			</div>
 			</div>
 			<!--身体的第三个------------------------------------------>
-			<div id="body-3">
+			<div id="body-3" class="louti">
 				<div id="body-a7">
 					<div id="body-a8"><a href=""><img src="images/16.png" class="body-a11"/></a></div>
 					<div id="body-a9"><a href=""><img src="images/a17.png" class="body-a11"/></a></div>
@@ -229,7 +260,7 @@
 				</div>
 			</div>
 			<!--身体的第四个-->
-			<div id="body-4">
+			<div id="body-4" class="louti">
 				<div id="body-a21">
 					<div id="body-a22">
 						<div id="body-a24">
@@ -329,7 +360,7 @@
 				</div>
 			</div>
 			<!--这是身体第五个-->
-			<div id="body-5">
+			<div id="body-5" class="louti">
 				<div id="body-a30">
 					<div id="body-a31">
 						<p>英雄资料</p>
@@ -370,7 +401,7 @@
 				</div>
 			</div>
 			<!--这是身体第六个--------------------------------------->
-			<div id="body-6">
+			<div id="body-6" class="louti">
 				<div id="body-a33">
 					<div id="body-a34">
 						<a href="">FANATAN创业馆</a>
@@ -421,9 +452,54 @@
 	lunbo();
 	lunbo1();
 	new fn().init();
+	louti();
 	
-	
-	
+//楼梯
+function louti(){
+	var $a=$("#louti"),
+		$b=$("#louti li"),  
+		$c=$(".louti"),     //各个楼层
+		flag=true;
+		//点击楼层目录
+	$b.on("click",function(){
+		flag=false;
+		$(this).addClass("active").siblings().removeClass("active");
+		var  index=$(this).index();
+		var t=$c.eq(index).offset().top;
+		//设置滚动条滚走的距离为t；    就行了
+		$("html,body").animate({"scrollTop":t},1000,function(){
+			flag=true;
+		});
+	});
+	//点击回到顶部
+	$("#louti p").on("click",function(){
+		$("html,body").animate({"scrollTop":0},1000,function(){
+			flag=true;
+		});
+		$(this).siblings().removeClass("active");
+	})
+	//操作滚动条
+	$(window).scroll(function(){
+		if( flag ){
+			var s=$(document).scrollTop();
+			//得到满足条件的楼层
+			//条件    abs(页面滚走的距离-某个楼层的top值)<楼层的高度的一半
+			var $e=$c.filter(function(){
+				//返回满足条件的楼层
+				return Math.abs(s-$(this).offset().top ) <  $(this).outerHeight()/2;
+			})
+			var index=$e.index();  //得到满足条件的楼层下标
+			if( index!=-1 ){
+				$b.eq(index).addClass("active").siblings().removeClass("active");
+			}
+			if( s<100 ){
+				$b.removeClass("active");
+			}
+		}
+	} )
+}
+
+
 </script>
 
 
